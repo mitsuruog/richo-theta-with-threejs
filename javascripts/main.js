@@ -32,7 +32,7 @@
 		geometry.applyMatrix(new THREE.Matrix4().makeScale(-1, 1, 1));
 
 		material = new THREE.MeshBasicMaterial({
-			map: THREE.ImageUtils.loadTexture('./images/textures/Equirectangular_projection_SW.jpg')
+			map: THREE.ImageUtils.loadTexture('./images/textures/ricoh-theta-sample.jpg')
 		});
 
 		mesh = new THREE.Mesh(geometry, material);
